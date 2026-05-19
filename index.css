@@ -1,0 +1,72 @@
+@font-face {
+        font-family: "score";
+        src: url("scoreboard.ttf") format("truetype");
+}
+
+body {
+    margin: 0;
+    background-color: #253D5B;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    background-color: black;
+    padding-top: 10px ;
+    color: #880000;
+}
+h3 {
+    text-align: center;
+    font-size: 40px;
+    color: #880000;
+    background-color: black;
+    padding-top: 5px;
+}
+
+.container {
+    font-family: "score";
+
+    display: flex;
+    justify-content: space-around;
+    transition: transform 0.3s ease;
+}
+
+.new-game {
+    
+    background-color: #253D5B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    transition: transform 0.3s ease;
+}
+
+.new-game-button {
+    font-family: "score";
+    background-color: black;
+    color: #880000;
+    font-size: 50px;
+    padding: 10px 20px 0 20px;
+    border-radius: 5px;
+    border: solid gray 2px;
+    transition: transform 0.3s ease;
+}
+
+.new-game :hover {
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.add-points {
+    font-family: "score";
+    background-color: black;
+    color: #880000;
+    padding: 5px 10px 0 5px;
+    font-size: 20px;
+}
+
+.add-points:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+}
